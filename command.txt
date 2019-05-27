@@ -1,0 +1,91 @@
+pandoc -s intro.md -c vd.css -o intro.html
+
+<link rel="stylesheet" type="text-css" href="vd.css" media="screen"/>
+  <link rel="stylesheet" href="impression.css" media="print"/>
+
+
+
+    width: 20%;
+    padding: 15px;
+    margin: 30px;
+    font-size: 24px;
+    color: white;
+
+
+
+
+
+새로고침 하면은 aligne 바꾸는거
+
+<div id="myid">hello</div>
+<script type="text/javascript">
+window.onload=function(){
+    var alignarray=['left','center','right'];
+    var elem=document.getElementById('myid');
+    elem.style.textAlign=alignarray[Math.round(Math.random()*2)];
+}
+</script>
+
+
+
+
+두개 옵션 생길 수 있는거
+
+
+var hello = document.querySelector('#basic');
+const CLICKED_CLASS = 'clicked'
+
+function handleClick(){
+	hello.classList.toggle(CLICKED_CLASS);
+
+
+}
+
+hello.addEventListener("click", handleClick);
+
+
+
+
+
+
+
+
+
+
+
+그 움지릭움지릭
+
+<p class="note" id="image" style="position: fixed;" />
+
+
+자바스크립트에 붙
+ window.onload = Prep();
+            
+            function Prep(){
+                window_Height = window.innerHeight;
+                window_Width = window.innerWidth;
+                
+                image_Element = document.getElementById("image");
+                image_Height = image_Element.clientHeight;
+                image_Width = image_Element.clientWidth;
+                
+                availSpace_V = window_Height - image_Height;
+                availSpace_H = window_Width - image_Width;
+                
+                var changeInterval = 500; // Time has to be in miliseconds. So, 3000 is 3 seconds
+                setInterval(moveImage, changeInterval);
+            }
+            
+            function moveImage(){
+                var randNum_V = Math.round(Math.random() * availSpace_V);
+                var randNum_H = Math.round(Math.random() * availSpace_H);
+                
+                image_Element.style.top = randNum_V + "px";
+                image_Element.style.left = randNum_H + "px";
+            }
+
+
+
+
+https://cofs.tistory.com/191#recentComments
+이동하기

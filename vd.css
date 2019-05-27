@@ -1,0 +1,127 @@
+
+
+
+h1{
+	padding-left: 90px;
+	padding-right: 90px;
+	font-size: 30px;
+	font-family: 'Space Mono', monospace;
+}
+
+h2{
+	display: none;
+
+}
+
+body { 
+	font-family: 'Space Mono', monospace;
+	width:90%;
+	margin: 70px auto 80px auto;
+	text-align: left;
+	background-color: #000000;
+	color: white;
+}
+
+figure { 
+	max-width: 45%;
+	float: right;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+	margin: 5px;
+}
+
+p.print {
+
+	width: 90%;
+	padding: 15px;
+	margin: 30px;
+	font-size:15px; 
+	font-family: 'Space Mono', monospace;
+	color: white;
+	text-align: center;
+	text-decoration: none; 
+}
+
+
+
+p.intro {
+	padding-left: 90px;
+	padding-right: 90px;
+	font-weight: bold;
+	font-size: 18px;
+	color: yellow;
+	font-family: 'Space Mono', monospace;
+
+}
+
+
+
+
+
+p.note {
+
+	width: 15%;
+	padding: 10px;
+	margin: 10px;
+	font-size: 15px;
+	float: left;
+	color:#aeaeae;
+}
+
+
+p {
+	padding-left: 90px;
+	padding-right: 90px;
+	font-family: 'Space Mono', monospace;
+	font-size: 18px;
+	line-height: 26px;
+}
+
+
+
+figcaption {  
+	font-family: 'Space Mono', monospace;
+	font-size: 15px;
+	text-align: center;
+	color:#aeaeae;
+	line-height: 25px;
+}
+
+
+
+.clicked{
+	float: left;
+}
+
+
+a{
+	text-decoration: underline;
+	text-align: center;
+	font-family: 'Space Mono', monospace;
+	color:#aeaeae;
+}
+
+
+
+nav {
+	bottom: 0;
+	position: fixed;
+	width: 100%;
+	background-color: #000000;
+	padding: 1rem;
+
+}
+
+
+button{
+	background-color: #000000;
+	font-size: 15px;
+	color: white;
+	border: black;
+	text-decoration:underline;
+	font-family: 'Space Mono', monospace;
+	cursor:pointer;
+}
