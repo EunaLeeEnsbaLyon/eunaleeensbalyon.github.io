@@ -119,6 +119,11 @@ nav {
 
 }
 
+@media screen {
+	.urlprint {
+		display : none;
+	}
+}
 
 button{
 	background-color: #000000;
