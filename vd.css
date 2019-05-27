@@ -1,3 +1,12 @@
+body { 
+	font-family: 'Space Mono', monospace;
+	width:90%;
+	margin: 70px auto 80px auto;
+	text-align: left;
+	background-color: #000000;
+	color: white;
+}
+
 
 
 
@@ -13,14 +22,6 @@ h2{
 
 }
 
-body { 
-	font-family: 'Space Mono', monospace;
-	width:90%;
-	margin: 70px auto 80px auto;
-	text-align: left;
-	background-color: #000000;
-	color: white;
-}
 
 figure { 
 	max-width: 45%;
@@ -31,6 +32,14 @@ img {
 	max-width: 100%;
 	height: auto;
 	margin: 5px;
+}
+
+figcaption {  
+	font-family: 'Space Mono', monospace;
+	font-size: 15px;
+	text-align: center;
+	color:#aeaeae;
+	line-height: 25px;
 }
 
 p.print {
@@ -81,17 +90,6 @@ p {
 }
 
 
-
-figcaption {  
-	font-family: 'Space Mono', monospace;
-	font-size: 15px;
-	text-align: center;
-	color:#aeaeae;
-	line-height: 25px;
-}
-
-
-
 .clicked{
 	float: left;
 }
@@ -124,4 +122,18 @@ button{
 	text-decoration:underline;
 	font-family: 'Space Mono', monospace;
 	cursor:pointer;
+}
+
+
+@media screen and (max-width: 900px) {
+
+	body {
+		width: 95%;
+	}
+
+	h1 {
+		padding-left: 0;
+		padding-right: 0;		
+	}
+
 }
