@@ -1,7 +1,14 @@
+
+
+* {
+	box-sizing: border-box;
+}
+
+
 body { 
 	font-family: 'Space Mono', monospace;
-	width:90%;
-	margin: 70px auto 80px auto;
+	width:100%;
+	padding: 70px 5% 80px 5%;
 	text-align: left;
 	background-color: #000000;
 	color: white;
@@ -57,8 +64,7 @@ p.print {
 
 
 p.intro {
-	padding-left: 90px;
-	padding-right: 90px;
+
 	font-weight: bold;
 	font-size: 18px;
 	color: yellow;
@@ -72,7 +78,7 @@ p.intro {
 
 p.note {
 
-	width: 15%;
+	width: 18%;
 	padding: 10px;
 	margin: 10px;
 	font-size: 15px;
@@ -122,18 +128,69 @@ button{
 	text-decoration:underline;
 	font-family: 'Space Mono', monospace;
 	cursor:pointer;
+	display: inline-block;
 }
 
-
-@media screen and (max-width: 900px) {
+/* MOBILE AND SMALL DEVICES */
+@media screen and (max-width: 768px) {
 
 	body {
-		width: 95%;
+		width: 100%;
+		padding: 0 8px 0 8px;
 	}
 
 	h1 {
+		font-size: 24px;
 		padding-left: 0;
 		padding-right: 0;		
 	}
 
+	p {
+		padding-left: 0;
+		padding-right: 0;
+		font-size: 15px	
+		line-height: 18px;
+	}
+
+
+	p.note {
+
+	width: 45%;
+	font-size: 13px;
+	line-height: 18px;
+	}
+
+
+	p.intro {
+
+	font-size: 15px;
+	}
+
+
+
+	button{
+	font-size: 13px;
+	
+	}
+
+
+	figure { 
+	max-width: 100%;
+	float: right;
+	}
+
+	nav {
+		left: 0;
+		right: 0;
+		padding: 0.5rem;	
+	}
+	
+
+}
+
+/* TABLET AND MEDIUM DEVICES */
+@media screen and (min-width: 769px)  and (max-width: 1100px) {
+	body {
+		background-color: #fff;
+	}
 }
