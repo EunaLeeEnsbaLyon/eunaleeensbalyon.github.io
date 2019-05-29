@@ -7,15 +7,15 @@ h1{
 }
 
 h2{	
-	font-size: 15px;
+	font-size: 10px;
 	font-family: 'Space Mono', monospace;
 }
 
 
  
 body { 
-	width: 90%;
-	margin: 50px auto 0px auto;
+	width:90%;
+	padding: 25px 5% 25px 5%;
 }
 
 figure { 
@@ -35,7 +35,7 @@ p.intro {
 	font-weight: bold;
 	font-size: 13px;
 	line-height: 18pt;
-	color:yellow;
+	color:blue;
 
 }
 

@@ -8,10 +8,11 @@
 body { 
 	font-family: 'Space Mono', monospace;
 	width:100%;
-	padding: 50px 5% 80px 5%;
+	padding: 50px 5% 30px 5%;
 	text-align: left;
 	background-color: white;
 	color: black;
+	font-size: 18px;
 }
 
 
@@ -22,11 +23,6 @@ h1{
 	padding-right: 90px;
 	font-size: 30px;
 	font-family: 'Space Mono', monospace;
-}
-
-h2{
-	display: none;
-
 }
 
 
@@ -66,7 +62,6 @@ p.print {
 p.intro {
 
 	font-weight: bold;
-	font-size: 18px;
 	color: blue;
 	font-family: 'Space Mono', monospace;
 
@@ -87,11 +82,11 @@ p.note {
 }
 
 
+
 p {
 	padding-left: 90px;
 	padding-right: 90px;
 	font-family: 'Space Mono', monospace;
-	font-size: 18px;
 	line-height: 26px;
 }
 
