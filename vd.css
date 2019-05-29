@@ -8,10 +8,10 @@
 body { 
 	font-family: 'Space Mono', monospace;
 	width:100%;
-	padding: 70px 5% 80px 5%;
+	padding: 50px 5% 80px 5%;
 	text-align: left;
-	background-color: #000000;
-	color: white;
+	background-color: white;
+	color: black;
 }
 
 
@@ -45,7 +45,7 @@ figcaption {
 	font-family: 'Space Mono', monospace;
 	font-size: 15px;
 	text-align: center;
-	color:#aeaeae;
+	color:#909090;
 	line-height: 25px;
 }
 
@@ -67,7 +67,7 @@ p.intro {
 
 	font-weight: bold;
 	font-size: 18px;
-	color: yellow;
+	color: blue;
 	font-family: 'Space Mono', monospace;
 
 }
@@ -83,7 +83,7 @@ p.note {
 	margin: 10px;
 	font-size: 15px;
 	float: left;
-	color:#aeaeae;
+	color:#909090;
 }
 
 
@@ -105,7 +105,7 @@ a{
 	text-decoration: underline;
 	text-align: center;
 	font-family: 'Space Mono', monospace;
-	color:#aeaeae;
+	color:#909090;
 }
 
 
@@ -114,8 +114,9 @@ nav {
 	bottom: 0;
 	position: fixed;
 	width: 100%;
-	background-color: #000000;
-	padding: 1rem;
+	background-color: blue;
+	padding: 0.75rem;
+	/*margin-left: -80px;*/
 
 }
 
@@ -126,7 +127,7 @@ nav {
 }
 
 button{
-	background-color: #000000;
+	background-color: blue;
 	font-size: 15px;
 	color: white;
 	border: black;
