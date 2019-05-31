@@ -197,4 +197,15 @@ button{
 	body {
 		background-color: #fff;
 	}
+
+
+	p.note {
+
+	width: 25%;
+	font-size: 15px;
+	line-height: 20px;
+	padding: 0;
+	margin: 8px;
+	}
+
 }
