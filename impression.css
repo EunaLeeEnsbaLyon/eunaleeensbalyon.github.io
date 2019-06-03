@@ -15,7 +15,7 @@ h2{
  
 body { 
 	width:90%;
-	padding: 25px 5% 25px 5%;
+	padding: 25px 5% 0px 5%;
 }
 
 figure { 
@@ -26,6 +26,7 @@ figure {
 img {
 	max-width: 100%;
 	height: auto;
+	border: 0.5px dashed #909090;
 }
 
 
