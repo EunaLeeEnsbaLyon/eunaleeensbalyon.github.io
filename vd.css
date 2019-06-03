@@ -1,4 +1,4 @@
-
+@import url("normalize.css");
 
 * {
 	box-sizing: border-box;
@@ -8,11 +8,10 @@
 body { 
 	font-family: 'Space Mono', monospace;
 	width:100%;
-	padding: 50px 5% 30px 5%;
+	padding: 60px 5% 30px 5%;
 	text-align: left;
 	background-color: white;
 	color: black;
-	font-size: 18px;
 }
 
 
@@ -23,6 +22,11 @@ h1{
 	padding-right: 90px;
 	font-size: 30px;
 	font-family: 'Space Mono', monospace;
+}
+
+h2{
+	display: none;
+
 }
 
 
@@ -63,6 +67,7 @@ p.print {
 p.intro {
 
 	font-weight: bold;
+	font-size: 18px;
 	color: blue;
 	font-family: 'Space Mono', monospace;
 
@@ -75,7 +80,7 @@ p.intro {
 p.note {
 
 	width: 18%;
-	padding: 12px;
+	padding: 10px;
 	margin: 12px;
 	font-size: 15px;
 	float: left;
@@ -83,11 +88,11 @@ p.note {
 }
 
 
-
 p {
 	padding-left: 90px;
 	padding-right: 90px;
 	font-family: 'Space Mono', monospace;
+	font-size: 18px;
 	line-height: 26px;
 }
 
@@ -108,12 +113,24 @@ a{
 
 nav {
 	bottom: 0;
+	right: 0;
+	left: 0;
 	position: fixed;
 	width: 100%;
 	background-color: blue;
-	padding: 0.75rem;\
-	/*margin-left: -80px;*/
+	padding: 0.5rem 1.25rem 1.25rem 1.25rem;
+	margin: 0;
+	color: #ffffff;
+	text-align: center;
+}
 
+nav .copyright {
+	display: inline-block;
+	padding: 0.75rem 0.5rem 0 0.5rem;
+}
+
+nav button {
+	padding: 0.75rem 0.5rem 0 0.5rem;
 }
 
 @media screen {
@@ -160,8 +177,8 @@ button{
 	width: 45%;
 	font-size: 13px;
 	line-height: 18px;
-	padding: 0;
-	margin: 8px;
+	padding: 4px;
+	margin: 4px;
 	}
 
 
@@ -184,9 +201,8 @@ button{
 	}
 
 	nav {
-		left: 0;
-		right: 0;
-		padding: 0.5rem;
+
+		padding: 0 0.75rem 0.75rem 0.75rem;
 		font-size: 13px;
 	}
 	
@@ -195,8 +211,10 @@ button{
 
 /* TABLET AND MEDIUM DEVICES */
 @media screen and (min-width: 769px)  and (max-width: 1100px) {
-	body {
-		background-color: #fff;
+
+	nav {
+
+		padding: 0.25rem 1rem 1rem 1rem;
 	}
 
 
@@ -208,5 +226,3 @@ button{
 	padding: 0;
 	margin: 8px;
 	}
-
-}
