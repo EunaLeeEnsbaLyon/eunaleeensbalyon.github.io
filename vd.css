@@ -8,7 +8,7 @@
 body { 
 	font-family: 'Space Mono', monospace;
 	width:100%;
-	padding: 60px 5% 30px 5%;
+	padding: 45px 7.5% 30px 10%;
 	text-align: left;
 	background-color: white;
 	color: black;
@@ -20,7 +20,7 @@ body {
 h1{
 	padding-left: 90px;
 	padding-right: 90px;
-	font-size: 28px;
+	font-size: 24px;
 	font-family: 'Space Mono', monospace;
 }
 
@@ -39,14 +39,13 @@ img {
 	max-width: 100%;
 	height: auto;
 	margin: 5px;
-	border: 1px dashed #bababa;
+	border: 1px dashed;
 }
 
 figcaption {  
 	font-family: 'Space Mono', monospace;
 	font-size: 15px;
 	text-align: center;
-	color:#909090;
 	line-height: 25px;
 }
 
@@ -80,11 +79,10 @@ p.intro {
 p.note {
 
 	width: 18%;
-	padding: 10px;
+	padding: 12px;
 	margin: 12px;
-	font-size: 15px;
+	font-size: 13px;
 	float: left;
-	color:#909090;
 }
 
 
@@ -106,14 +104,14 @@ a{
 	text-decoration: underline;
 	text-align: center;
 	font-family: 'Space Mono', monospace;
-	color:#909090;
+	color:black;
 }
 
 
 
 nav {
 	bottom: 0;
-	right: 0;
+	right: 200px;
 	left: 0;
 	position: fixed;
 	width: 100%;
