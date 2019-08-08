@@ -20,8 +20,9 @@ body {
 h1{
 	padding-left: 90px;
 	padding-right: 90px;
-	font-size: 24px;
+	font-size: 25px;
 	font-family: 'Space Mono', monospace;
+	font-weight: lighter;
 }
 
 h2{
@@ -111,7 +112,7 @@ a{
 
 nav {
 	bottom: 0;
-	right: 200px;
+	right: 0;
 	left: 0;
 	position: fixed;
 	width: 100%;
